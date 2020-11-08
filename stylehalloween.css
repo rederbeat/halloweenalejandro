@@ -1,0 +1,36 @@
+#container {
+ background-image: url('imagenes/wallpaper.jpg');
+ height: 1080px;
+ margin: auto;
+ position: relative; /* La posicion del container puede variar */
+
+}
+
+body {
+    background-color: black;}
+
+    #titulo {
+        position: absolute; /* dentro de su contenedor lo fijo en unas cordenadas */
+        top: 50px;
+        left: 50px;
+        color: white;
+        font-size: 2em;
+        font-family: 'Syne Mono', monospace;
+        background-color: #333;
+        opacity: 30%;
+        
+    }
+#gif {
+    position: absolute;
+    visibility: hidden;
+    
+}
+#ojo {
+   
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    cursor: pointer;
+}
